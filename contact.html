@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="external.css">
+</head>
+<body>
+
+<ul class="topnav">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">Gallery</a></li>
+<li><a class="active" href="contact.html">Contact</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="hardware.html">Hardware</a></li>
+<li><a href="software.html">Software</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="projects.html">Projects</a></li>
+</ul>
+
+<div class="contactmain">
+<h1>Contact Me</h1>
+
+<form action="thankyou.html">
+<label>First Name:</label><br>
+<input type="text" required><br><br>
+
+<label>Last Name:</label><br>
+<input type="text" required><br><br>
+
+<label>Choose Your IT Interests</label><br>
+<select size="3">
+<option>Gaming</option>
+<option>Social Media</option>
+<option>Networking</option>
+<option>Web Design</option>
+<option>No Interest</option>
+</select>
+
+<br><br>
+<textarea rows="6" cols="30">Enter your reasons...</textarea>
+<br><br>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+
+<div class="rating">
+<h2>Rate This Website</h2>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+0 <input type="range" id="a" value="0">
++ <input type="number" id="b" value="10">
+= <output name="x"></output>
+</form>
+</div>
+
+</body>
+</html>
